@@ -6,7 +6,7 @@ const inputValue02 = document.querySelector("#value02");
 const currency02 = document.querySelector("#currency02")
 
 
-/*
+
 fetch(`https://v6.exchangerate-api.com/v6/37efb5e5297e1fee00ee2567/latest/USD`)
     .then(response => {
         // Check if the request was successful
@@ -114,4 +114,3 @@ currency02.addEventListener("input", function() {
     // Chamar a função e passar parâmetros
     converter(1);
 });
-*/
