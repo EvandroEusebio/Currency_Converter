@@ -7,7 +7,7 @@ const currency02 = document.querySelector("#currency02")
 
 
 // Get currency data of the API for select dropdown
-/
+
 fetch(`https://v6.exchangerate-api.com/v6/37efb5e5297e1fee00ee2567/latest/USD`)
     .then(response => {
         // Check if the request was successful
