@@ -30,6 +30,7 @@ main{
     padding-left: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container-rigth{
@@ -38,6 +39,7 @@ main{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    flex: 1;
 }
 .container-left > h2{
     font-size: 3em;
